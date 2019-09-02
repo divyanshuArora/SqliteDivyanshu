@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:padding="15dp"
+        android:textColorHint="#000000"
+        android:id="@+id/namePop"
+        />
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:textColorHint="#000000"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:id="@+id/emailPop"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColorHint="#000000"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:hint="Number"
+        android:id="@+id/numberPop"
+        />
+
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColorHint="#000000"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:hint="Password"
+
+        android:id="@+id/passPop"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:id="@+id/updatePop"
+        android:background="#F30A0A"
+        android:text="Update"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:layout_weight="1"
+        android:id="@+id/cancelPop"
+        android:background="#F30A0A"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

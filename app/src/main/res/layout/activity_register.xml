@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImagePost"
+        android:src="@drawable/user_icon"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:singleLine="true"
+        android:padding="15dp"
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:hint="Name"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:hint="email"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:padding="15dp"
+        android:textColorHint="#000000"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:hint="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:padding="15dp"
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:hint="password"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/login"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+
+</LinearLayout>
